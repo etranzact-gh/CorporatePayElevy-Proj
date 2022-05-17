@@ -1,0 +1,153 @@
+2020-10-15 11:24:49,174 DEBUG - Starting ServiceWrapper in the CLI mode
+2020-10-15 11:24:50,552 INFO  - Installing the service with id 'AMARD 1.0'
+2020-10-15 11:24:50,645 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2020-10-15 11:55:20,562 DEBUG - Starting ServiceWrapper in the CLI mode
+2020-10-15 11:55:21,520 INFO  - Installing the service with id 'AMARD 1.0'
+2020-10-15 11:55:21,579 DEBUG - Completed. Exit code is 0
+2020-10-15 11:56:52,339 DEBUG - Starting ServiceWrapper in the CLI mode
+2020-10-15 11:56:53,038 INFO  - Uninstalling the service with id 'AMARD 1.0'
+2020-10-15 11:56:53,075 DEBUG - Completed. Exit code is 0
+2020-10-15 11:59:59,217 DEBUG - Starting ServiceWrapper in the CLI mode
+2020-10-15 11:59:59,839 INFO  - Installing the service with id 'ETZAppsCertificateExpirationTracker'
+2020-10-15 11:59:59,909 DEBUG - Completed. Exit code is 0
+2020-10-28 09:41:37,923 INFO  - Starting ServiceWrapper in the service mode
+2020-10-28 09:42:29,957 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2020-10-28 09:42:30,004 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2020-10-28 09:42:30,394 INFO  - Started process 1376
+2020-10-28 09:42:30,410 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-11-09 21:07:18,668 INFO  - Starting ServiceWrapper in the service mode
+2020-11-09 21:07:19,933 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2020-11-09 21:07:19,933 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2020-11-09 21:07:20,667 INFO  - Started process 5728
+2020-11-09 21:07:20,683 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-12-08 08:05:28,492 INFO  - Starting ServiceWrapper in the service mode
+2020-12-08 08:05:29,549 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2020-12-08 08:05:29,549 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2020-12-08 08:05:29,881 INFO  - Started process 1436
+2020-12-08 08:05:29,895 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-12-11 18:58:30,012 INFO  - Stopping ETZAppsCertificateExpirationTracker
+2020-12-11 18:58:30,340 DEBUG - ProcessKill 1436
+2021-01-19 10:46:37,526 INFO  - Starting ServiceWrapper in the service mode
+2021-01-19 10:46:38,284 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-01-19 10:46:38,300 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-01-19 10:46:38,819 INFO  - Started process 7980
+2021-01-19 10:46:38,883 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-02-11 09:52:29,050 INFO  - Starting ServiceWrapper in the service mode
+2021-02-11 09:52:30,877 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-02-11 09:52:30,877 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-02-11 09:52:31,720 INFO  - Started process 6208
+2021-02-11 09:52:31,838 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-03-04 09:18:26,617 INFO  - Starting ServiceWrapper in the service mode
+2021-03-04 09:18:29,366 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-04 09:18:29,382 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-04 09:18:32,006 INFO  - Started process 7516
+2021-03-04 09:18:32,053 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-03-12 20:21:16,096 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.ComponentModel.Win32Exception: The interface is unknown
+   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at winsw.WrapperService.LogEvent(String message, EventLogEntryType type)
+2021-03-12 20:21:16,486 INFO  - Stopping ETZAppsCertificateExpirationTracker
+2021-03-12 20:21:34,492 DEBUG - ProcessKill 7516
+2021-03-17 09:28:34,377 INFO  - Starting ServiceWrapper in the service mode
+2021-03-17 09:28:35,740 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-17 09:28:36,099 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-17 09:28:36,990 INFO  - Started process 6684
+2021-03-17 09:28:37,583 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-03-24 11:33:28,504 INFO  - Stopping ETZAppsCertificateExpirationTracker
+2021-03-24 11:37:52,546 INFO  - Starting ServiceWrapper in the service mode
+2021-03-24 11:37:54,046 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-24 11:37:54,046 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-24 11:37:56,765 INFO  - Started process 2796
+2021-03-24 11:37:56,781 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-03-31 11:39:22,634 INFO  - Starting ServiceWrapper in the service mode
+2021-03-31 11:39:23,211 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-31 11:39:23,213 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-31 11:39:23,994 INFO  - Started process 5524
+2021-03-31 11:39:23,999 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-03-31 12:54:37,114 INFO  - Starting ServiceWrapper in the service mode
+2021-03-31 12:54:39,034 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-31 12:54:39,035 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-03-31 12:54:40,352 INFO  - Started process 7412
+2021-03-31 12:54:40,635 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-04-07 18:56:02,229 INFO  - Stopping ETZAppsCertificateExpirationTracker
+2021-04-07 18:56:02,338 DEBUG - ProcessKill 7412
+2021-04-07 18:56:29,241 WARN  - Failed to locate children of the process with PID=7412. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2021-04-07 18:56:31,866 INFO  - Stopping process 7412
+2021-04-07 18:56:32,585 INFO  - Process 7412 is already stopped
+System.ArgumentException: Process with an Id of 7412 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   at winsw.Util.ProcessHelper.StopProcess(Int32 pid, TimeSpan stopTimeout)
+2021-04-07 18:56:32,976 INFO  - Finished ETZAppsCertificateExpirationTracker
+2021-04-07 18:56:32,991 DEBUG - Completed. Exit code is 0
+2021-04-16 09:17:06,317 INFO  - Starting ServiceWrapper in the service mode
+2021-04-16 09:17:07,410 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-04-16 09:17:07,426 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-04-16 09:17:08,192 INFO  - Started process 7656
+2021-04-16 09:17:08,192 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-04-19 11:00:04,165 INFO  - Starting ServiceWrapper in the service mode
+2021-04-19 11:00:05,274 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-04-19 11:00:05,283 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-04-19 11:00:06,160 INFO  - Started process 7868
+2021-04-19 11:00:06,167 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-05-17 15:34:17,960 INFO  - Stopping ETZAppsCertificateExpirationTracker
+2021-05-17 15:34:19,226 INFO  - Finished ETZAppsCertificateExpirationTracker
+2021-05-17 15:34:50,567 DEBUG - Completed. Exit code is 0
+2021-05-17 15:38:06,870 INFO  - Starting ServiceWrapper in the service mode
+2021-05-17 15:38:08,885 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-17 15:38:08,900 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-17 15:38:09,378 INFO  - Started process 9944
+2021-05-17 15:38:09,393 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-05-17 15:48:30,748 INFO  - Starting ServiceWrapper in the service mode
+2021-05-17 15:48:31,759 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-17 15:48:31,759 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-17 15:48:32,354 INFO  - Started process 7216
+2021-05-17 15:48:32,360 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-05-18 19:32:43,586 INFO  - Stopping ETZAppsCertificateExpirationTracker
+2021-05-18 19:32:44,492 DEBUG - ProcessKill 7216
+2021-05-18 19:33:00,182 WARN  - Failed to locate children of the process with PID=7216. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress.
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2021-05-18 19:33:01,214 INFO  - Stopping process 7216
+2021-05-18 19:33:01,870 INFO  - Process 7216 is already stopped
+System.ArgumentException: Process with an Id of 7216 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   at winsw.Util.ProcessHelper.StopProcess(Int32 pid, TimeSpan stopTimeout)
+2021-05-18 19:33:02,230 INFO  - Finished ETZAppsCertificateExpirationTracker
+2021-05-18 19:33:02,261 DEBUG - Completed. Exit code is 0
+2021-05-19 09:15:41,923 INFO  - Starting ServiceWrapper in the service mode
+2021-05-19 09:15:43,722 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-19 09:15:43,738 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-19 09:15:43,786 INFO  - Started process 8120
+2021-05-19 09:15:43,786 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-05-26 13:10:59,154 INFO  - Starting ServiceWrapper in the service mode
+2021-05-26 13:11:00,310 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-26 13:11:00,310 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-26 13:11:00,357 INFO  - Started process 1160
+2021-05-26 13:11:00,373 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-05-27 17:56:49,290 INFO  - Starting ServiceWrapper in the service mode
+2021-05-27 17:56:52,108 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-27 17:56:52,319 INFO  - Starting java -cp "D:\expiration_reminder\lib\*;D:\expiration_reminder\cfg\*;D:\expiration_reminder\." com.etz.gh.expiration_reminder.MainScheduler
+2021-05-27 17:56:53,436 INFO  - Started process 7684
+2021-05-27 17:56:53,528 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender

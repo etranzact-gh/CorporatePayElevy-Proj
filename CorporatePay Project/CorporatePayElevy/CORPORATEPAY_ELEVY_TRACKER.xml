@@ -1,0 +1,13 @@
+<service>
+    <id>CorporatePayElevy</id>
+    <name>CorporatePayElevy</name>
+   <description></description>
+    <env name="MYAPP_HOME" value="%BASE%"/>
+    <executable>java</executable>
+	<arguments>-cp "%BASE%\lib\*;%BASE%\cfg\*;%BASE%\." com.etz.CorporatePayElevy.Scheduler.SchedulerClass</arguments>
+	<logpath>%BASE%\log</logpath>
+	 <log mode="roll-by-size">
+      <sizeThreshold>50240</sizeThreshold>
+	  <keepFiles>5</keepFiles>
+    </log>
+</service>
